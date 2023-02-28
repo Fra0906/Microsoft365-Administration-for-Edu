@@ -1,0 +1,146 @@
+{"items":[{
+    "ExtensionData":  {
+
+                      },
+    "AlternateEmailAddresses":  [
+                                    "casulli.sa@gmail.com"
+                                ],
+    "AlternateMobilePhones":  [
+
+                              ],
+    "AlternativeSecurityIds":  [
+
+                               ],
+    "BlockCredential":  false,
+    "City":  null,
+    "CloudExchangeRecipientDisplayType":  1073741824,
+    "Country":  null,
+    "Department":  null,
+    "DirSyncProvisioningErrors":  [
+
+                                  ],
+    "DisplayName":  "Sara Casulli",
+    "Errors":  null,
+    "Fax":  null,
+    "FirstName":  "Sara",
+    "ImmutableId":  null,
+    "IndirectLicenseErrors":  [
+
+                              ],
+    "IsBlackberryUser":  false,
+    "IsLicensed":  true,
+    "LastDirSyncTime":  null,
+    "LastName":  "Casulli",
+    "LastPasswordChangeTimestamp":  "\/Date(1646134505000)\/",
+    "LicenseAssignmentDetails":  [
+                                     {
+                                         "ExtensionData":  "System.Runtime.Serialization.ExtensionDataObject",
+                                         "AccountSku":  "Microsoft.Online.Administration.AccountSkuIdentifier",
+                                         "Assignments":  "Microsoft.Online.Administration.LicenseAssignment"
+                                     }
+                                 ],
+    "LicenseReconciliationNeeded":  false,
+    "Licenses":  [
+                     {
+                         "ExtensionData":  "System.Runtime.Serialization.ExtensionDataObject",
+                         "AccountSku":  "Microsoft.Online.Administration.AccountSkuIdentifier",
+                         "AccountSkuId":  "01hc5:DEVELOPERPACK_E5",
+                         "GroupsAssigningLicense":  "35b38693-180a-4d2f-8ab7-d61fc6947272",
+                         "ServiceStatus":  "Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus Microsoft.Online.Administration.ServiceStatus"
+                     }
+                 ],
+    "LiveId":  "10032001DBD1BDC3",
+    "MSExchRecipientTypeDetails":  null,
+    "MSRtcSipDeploymentLocator":  null,
+    "MSRtcSipPrimaryUserAddress":  null,
+    "MobilePhone":  null,
+    "ObjectId":  "35b38693-180a-4d2f-8ab7-d61fc6947272",
+    "Office":  null,
+    "OverallProvisioningStatus":  3,
+    "PasswordNeverExpires":  null,
+    "PasswordResetNotRequiredDuringActivate":  null,
+    "PhoneNumber":  "393407580939",
+    "PortalSettings":  [
+
+                       ],
+    "PostalCode":  null,
+    "PreferredDataLocation":  null,
+    "PreferredLanguage":  "it-IT",
+    "ProxyAddresses":  [
+                           "smtp:vjq1v@01hc5.onmicrosoft.com",
+                           "SMTP:SaraCa@01hc5.onmicrosoft.com"
+                       ],
+    "ReleaseTrack":  null,
+    "ServiceInformation":  [
+                               {
+                                   "ExtensionData":  "System.Runtime.Serialization.ExtensionDataObject",
+                                   "ServiceElements":  "ServiceExtension",
+                                   "ServiceInstance":  "sharepoint/*"
+                               }
+                           ],
+    "SignInName":  "SaraCa@01hc5.onmicrosoft.com",
+    "SoftDeletionTimestamp":  null,
+    "State":  null,
+    "StreetAddress":  null,
+    "StrongAuthenticationMethods":  [
+                                        {
+                                            "ExtensionData":  "System.Runtime.Serialization.ExtensionDataObject",
+                                            "IsDefault":  false,
+                                            "MethodType":  "OneWaySMS"
+                                        },
+                                        {
+                                            "ExtensionData":  "System.Runtime.Serialization.ExtensionDataObject",
+                                            "IsDefault":  false,
+                                            "MethodType":  "TwoWayVoiceMobile"
+                                        },
+                                        {
+                                            "ExtensionData":  "System.Runtime.Serialization.ExtensionDataObject",
+                                            "IsDefault":  false,
+                                            "MethodType":  "PhoneAppOTP"
+                                        },
+                                        {
+                                            "ExtensionData":  "System.Runtime.Serialization.ExtensionDataObject",
+                                            "IsDefault":  true,
+                                            "MethodType":  "PhoneAppNotification"
+                                        }
+                                    ],
+    "StrongAuthenticationPhoneAppDetails":  [
+                                                {
+                                                    "ExtensionData":  "System.Runtime.Serialization.ExtensionDataObject",
+                                                    "AuthenticationType":  3,
+                                                    "DeviceName":  "iPhone (2)",
+                                                    "DeviceTag":  null,
+                                                    "DeviceToken":  null,
+                                                    "NotificationType":  0,
+                                                    "OathSecretKey":  null,
+                                                    "OathTokenTimeDrift":  0,
+                                                    "PhoneAppVersion":  null
+                                                }
+                                            ],
+    "StrongAuthenticationProofupTime":  null,
+    "StrongAuthenticationRequirements":  [
+
+                                         ],
+    "StrongAuthenticationUserDetails":  {
+                                            "ExtensionData":  {
+
+                                                              },
+                                            "AlternativePhoneNumber":  null,
+                                            "Email":  null,
+                                            "OldPin":  null,
+                                            "PhoneNumber":  "+39 3407580939",
+                                            "Pin":  null
+                                        },
+    "StrongPasswordRequired":  null,
+    "StsRefreshTokensValidFrom":  "\/Date(1646134505000)\/",
+    "Title":  "Teacher",
+    "UsageLocation":  "IE",
+    "UserLandingPageIdentifierForO365Shell":  null,
+    "UserPrincipalName":  "SaraCa@01hc5.onmicrosoft.com",
+    "UserThemeIdentifierForO365Shell":  null,
+    "UserType":  1,
+    "ValidationStatus":  1,
+    "WhenCreated":  "\/Date(1644987980000)\/"
+}
+
+]}
