@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="482.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guipackage.ClassGroupController">
+    <children>
+        <Label layoutY="-2.0" prefHeight="0.0" prefWidth="600.0" styleClass="title" text="Gruppi Classe" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="24.0" />
+            </font></Label>
+      <Pane layoutX="20.0" layoutY="63.0" prefHeight="102.0" prefWidth="560.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="63.0">
+         <children>
+              <Label layoutX="2.0" layoutY="17.0" text="Classe">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label layoutX="193.0" layoutY="16.0" text="Scuola">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+              <TextField fx:id="txt_classe" layoutY="38.0" prefHeight="40.0" prefWidth="178.0" />
+              <TextField fx:id="txt_scuola" layoutX="186.0" layoutY="38.0" prefHeight="40.0" prefWidth="210.0" />
+              <Button fx:id="btn_Add" layoutX="403.0" layoutY="41.0" maxWidth="150.0" minWidth="150.0" mnemonicParsing="false" onAction="#save" prefWidth="150.0" text="Aggiungi" />
+         </children>
+      </Pane>
+        <TableView fx:id="table" layoutX="20.0" layoutY="174.0" prefHeight="292.0" prefWidth="560.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="174.0">
+            <columns>
+                <TableColumn fx:id="classecol" prefWidth="150.0" text="Classe" />
+                <TableColumn fx:id="scuolacol" minWidth="5.20001220703125" prefWidth="200.0" text="Scuola" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

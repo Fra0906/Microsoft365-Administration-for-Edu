@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="318.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guipackage.NewGroup">
+   <children>
+      <Label layoutX="35.0" layoutY="33.0" styleClass="title" text="Nuovo Gruppo" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="92.0" text="Nome gruppo:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="138.0" text="Descrizione:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="185.0" text="Indirizzo email:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="group_name" layoutX="189.0" layoutY="82.0" prefHeight="40.0" prefWidth="417.0" AnchorPane.leftAnchor="189.0" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="82.0" />
+      <TextField fx:id="group_description" layoutX="189.0" layoutY="128.0" prefHeight="40.0" prefWidth="417.0" AnchorPane.leftAnchor="189.0" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="128.0" />
+      <TextField fx:id="group_email" layoutX="189.0" layoutY="175.0" prefHeight="40.0" prefWidth="226.0" AnchorPane.leftAnchor="189.0" AnchorPane.rightAnchor="223.0" AnchorPane.topAnchor="175.0" />
+      <Button fx:id="save_btn" layoutX="398.0" layoutY="252.0" mnemonicParsing="false" onAction="#save" text="Salva" AnchorPane.rightAnchor="166.0" AnchorPane.topAnchor="252.0" />
+      <Button fx:id="save_close_btn" layoutX="479.0" layoutY="252.0" mnemonicParsing="false" onAction="#save_and_close" text="Salva e chiudi" AnchorPane.rightAnchor="32.5" AnchorPane.topAnchor="252.0" />
+      <Button fx:id="cancel_btn" layoutX="62.0" layoutY="252.0" mnemonicParsing="false" onAction="#close_window" text="Annulla" AnchorPane.leftAnchor="62.0" AnchorPane.topAnchor="252.0" />
+      <ComboBox fx:id="domain_combobox" layoutX="415.0" layoutY="176.0" prefHeight="40.0" prefWidth="191.0" promptText="Dominio" stylesheets="@style/style.css" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="175.0" />
+   </children>
+</AnchorPane>

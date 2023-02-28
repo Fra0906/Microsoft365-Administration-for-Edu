@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="654.0" prefWidth="956.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guipackage.ImportStudents">
+   <children>
+      <Button fx:id="selectcsv_btn" layoutX="37.0" layoutY="79.0" mnemonicParsing="false" onAction="#selectCSV" text="Seleziona CSV" AnchorPane.leftAnchor="37.0" AnchorPane.topAnchor="79.0" />
+      <Label fx:id="pathcsv_lbl" layoutX="179.0" layoutY="87.0" maxWidth="300.0" prefHeight="19.0" prefWidth="300.0" text="Nessun file selezionato" AnchorPane.leftAnchor="179.0" AnchorPane.topAnchor="87.0" />
+      <TableView fx:id="tableview" editable="true" layoutX="21.0" layoutY="196.0" prefHeight="398.0" prefWidth="918.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="196.0" />
+      <Button fx:id="import_btn" layoutX="460.0" layoutY="361.0" mnemonicParsing="false" onAction="#importStudents" text="Conferma e importa" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="17.5" />
+      <Pane layoutX="21.0" layoutY="108.0" prefHeight="56.0" prefWidth="867.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="108.0">
+         <children>
+            <TextField fx:id="txt_nome" layoutX="14.0" layoutY="16.0" prefWidth="150.0" promptText="Nome" />
+            <TextField fx:id="txt_cognome" layoutX="178.0" layoutY="16.0" prefWidth="150.0" promptText="Cognome" />
+            <TextField fx:id="txt_email" layoutX="337.0" layoutY="16.0" promptText="Email istituzionale" />
+            <TextField fx:id="txt_scuola" layoutX="526.0" layoutY="16.0" promptText="Scuola" />
+            <TextField fx:id="txt_classe" layoutX="715.0" layoutY="16.0" prefHeight="40.0" prefWidth="72.0" promptText="Classe" />
+            <Button fx:id="btn_nuovo" layoutX="808.0" layoutY="19.0" mnemonicParsing="false" onAction="#insertStudent" prefHeight="34.0" prefWidth="96.0" text="Nuovo" />
+         </children>
+      </Pane>
+      <CheckBox fx:id="same_pwd_chk" layoutX="554.0" layoutY="86.0" mnemonicParsing="false" styleClass="check-box-white" text="Stessa password per tutti" AnchorPane.rightAnchor="222.0" AnchorPane.topAnchor="86.0" />
+      <TextField fx:id="password_txt" disable="true" layoutX="744.0" layoutY="75.0" promptText="password" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="75.0" />
+      <Label layoutX="102.0" layoutY="29.0" styleClass="title" text="Importa studenti" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

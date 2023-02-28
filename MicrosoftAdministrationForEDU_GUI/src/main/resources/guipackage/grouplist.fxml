@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="503.0" prefWidth="817.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guipackage.GrouplistController">
+   <children>
+      <AnchorPane layoutX="4.0" layoutY="155.0" prefHeight="341.0" prefWidth="806.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="155.0">
+         <children>
+            <TableView fx:id="tableview" layoutX="7.0" layoutY="56.0" prefHeight="316.0" prefWidth="792.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="7.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="23.0" layoutY="27.0" styleClass="title" text="Gestione gruppi" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Pane layoutX="23.0" layoutY="69.0">
+         <children>
+            <Button fx:id="view_member_btn" layoutX="185.0" mnemonicParsing="false" onAction="#view_comp_btn" prefHeight="34.0" prefWidth="191.0" text="Visualizza componenti" />
+            <Button fx:id="add_member" layoutX="383.0" mnemonicParsing="false" onAction="#edit_group" prefHeight="25.0" prefWidth="175.0" text="Modifica gruppo" />
+            <Button fx:id="new_group" mnemonicParsing="false" onAction="#newgroup" prefHeight="25.0" prefWidth="175.0" text="Nuovo gruppo" />
+         </children>
+      </Pane>
+      <Label layoutX="23.0" layoutY="127.0" text="Ricerca:" />
+      <TextField fx:id="field_ricerca" onKeyTyped="#searchgroup" onTouchMoved="#searchgroup" layoutX="90.0" layoutY="117.0" prefHeight="40.0" prefWidth="310.0" promptText="Cerca" />
+   </children>
+</AnchorPane>

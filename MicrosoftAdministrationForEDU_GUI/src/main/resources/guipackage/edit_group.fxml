@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="295.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guipackage.EditGroup">
+   <children>
+      <Label layoutX="29.0" layoutY="34.0" styleClass="title" text="Modifica gruppo" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="97.0" text="Nome:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="164.0" text="Descrizione:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="142.0" layoutY="86.0" prefHeight="25.0" prefWidth="339.0" AnchorPane.leftAnchor="142.0" AnchorPane.rightAnchor="39.0" AnchorPane.topAnchor="86.0" />
+      <TextField fx:id="description" layoutX="142.0" layoutY="157.0" prefHeight="39.0" prefWidth="339.0" AnchorPane.leftAnchor="142.0" AnchorPane.rightAnchor="39.0" AnchorPane.topAnchor="157.0" />
+      <Button fx:id="save_btn" layoutX="221.0" layoutY="232.0" mnemonicParsing="false" onAction="#save" text="Salva " AnchorPane.leftAnchor="221.0" AnchorPane.rightAnchor="221.0" AnchorPane.topAnchor="232.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="575.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guipackage.TeacherlistController">
+   <children>
+      <Label layoutX="20.0" layoutY="30.0" styleClass="title" text="Gestione docenti" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Pane layoutX="26.0" layoutY="70.0">
+         <children>
+            <Button onAction="#addTeacher" prefHeight="31.0" prefWidth="150.0" text="Nuovo docente" />
+            <Button layoutX="154.0" onAction="#deleteTeacher" prefHeight="31.0" prefWidth="150.0" text="Elimina docente" />
+            <Button layoutX="308.0" onAction="#editTeacher" prefHeight="31.0" prefWidth="150.0" text="Modifica docente" />
+            <Button fx:id="block_btn" layoutX="461.0" onAction="#blockTeacher" prefHeight="31.0" prefWidth="150.0" text="Blocca/sblocca" />
+         </children>
+      </Pane>
+      <TableView fx:id="tableview" layoutX="14.0" layoutY="196.0" onMouseClicked="#change_btn" prefHeight="368.0" prefWidth="845.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="196.0" />
+      <Pane layoutX="26.0" layoutY="115.0">
+         <children>
+            <TextField fx:id="src_nome" layoutX="96.0" onKeyTyped="#searchTeacher" onTouchMoved="#searchTeacher" prefHeight="40.0" prefWidth="150.0" promptText="Nome" />
+            <TextField fx:id="src_cognome" layoutX="262.0" onKeyTyped="#searchTeacher" onTouchMoved="#searchTeacher" promptText="Cognome" />
+            <TextField fx:id="src_subject" layoutX="452.0" onKeyTyped="#searchTeacher" onTouchMoved="#searchTeacher" prefHeight="40.0" prefWidth="165.0" promptText="Materie" />
+            <Label layoutY="4.0" text="Ricerca:" />
+            <CheckBox fx:id="regex_nome" layoutX="97.0" layoutY="46.0" mnemonicParsing="false" styleClass="check-box-white" text="RegEx" />
+            <CheckBox fx:id="regex_cognome" layoutX="262.0" layoutY="46.0" mnemonicParsing="false" styleClass="check-box-white" text="RegEx" />
+            <CheckBox fx:id="regex_materie" layoutX="452.0" layoutY="46.0" mnemonicParsing="false" styleClass="check-box-white" text="RegEx" />
+         </children>
+      </Pane>
+      <Button fx:id="exportcsv_btn" layoutX="732.0" layoutY="78.0" mnemonicParsing="false" onAction="#exportCSV" prefHeight="34.0" prefWidth="124.0" text="Esporta csv" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="70.0" />
+   </children>
+</AnchorPane>
